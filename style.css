@@ -48,13 +48,15 @@ body {
 .section-title::after {
   content: "";
   display: block;
-  width: 34px;
-  height: 2px;
+  width: 36px;
+  height: 3px;
   background: #111;
-  border-radius: 50px;
   margin-top: 6px;
-  transform: rotate(-6deg);
+
+  /* THIS CREATES THE CURVE */
+  border-radius: 2px 14px 2px 14px;
 }
+
 
 /* BLOCKS */
 .block {
