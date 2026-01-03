@@ -1,1 +1,29 @@
 
+.fabric-section {
+  text-align: center;
+}
+
+.fabric-group {
+  margin: 14px 0;
+}
+
+.fabric-group h4 {
+  margin-bottom: 8px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.fabric-tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.fabric-tags span {
+  padding: 6px 12px;
+  font-size: 13px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background: #fafafa;
+}
