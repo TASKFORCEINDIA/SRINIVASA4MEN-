@@ -37,10 +37,21 @@ body {
   margin: auto;
 }
 
-.section h2 {
+/* SECTION TITLES WITH TINY UNDERLINE */
+.section-title {
   font-size: 18px;
   letter-spacing: 1px;
   margin-bottom: 18px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 28px;
+  height: 1px;
+  background: #111;
+  margin-top: 6px;
 }
 
 /* BLOCKS */
@@ -70,7 +81,19 @@ body {
   background: #fafafa;
 }
 
-/* KNOWLEDGE CENTRE */
+/* SERVICES */
+.service-item {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.service-item p {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: #555;
+}
+
+/* KNOWLEDGE */
 .knowledge-item {
   border-bottom: 1px solid #eee;
 }
