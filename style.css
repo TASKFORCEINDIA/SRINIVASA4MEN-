@@ -1,29 +1,63 @@
+/* GLOBAL */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #111;
+}
 
+/* SECTION */
+.section {
+  padding: 32px 16px;
+}
+
+/* FABRIC SECTION */
 .fabric-section {
   text-align: center;
 }
 
+.fabric-section h3 {
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-bottom: 28px;
+}
+
+/* GROUP */
 .fabric-group {
-  margin: 14px 0;
+  margin-bottom: 26px;
 }
 
 .fabric-group h4 {
-  margin-bottom: 8px;
   font-size: 14px;
+  margin-bottom: 12px;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
+/* TAGS */
 .fabric-tags {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 10px;
 }
 
 .fabric-tags span {
-  padding: 6px 12px;
+  padding: 7px 14px;
   font-size: 13px;
   border: 1px solid #ddd;
   border-radius: 20px;
   background: #fafafa;
+}
+
+/* NOTE */
+.fabric-note {
+  margin-top: 30px;
+  font-size: 13px;
+  color: #666;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
 }
