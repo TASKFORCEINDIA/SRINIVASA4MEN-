@@ -1,63 +1,103 @@
-/* GLOBAL */
+/* RESET */
 body {
   margin: 0;
-  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   background: #ffffff;
   color: #111;
+  line-height: 1.6;
 }
 
-/* SECTION */
-.section {
-  padding: 32px 16px;
-}
-
-/* FABRIC SECTION */
-.fabric-section {
+/* HEADER */
+.header {
   text-align: center;
+  padding: 32px 16px 24px;
+  border-bottom: 1px solid #eee;
 }
 
-.fabric-section h3 {
-  font-size: 18px;
-  letter-spacing: 2px;
-  margin-bottom: 28px;
+.brand {
+  margin: 0;
+  font-size: 32px;
+  letter-spacing: 3px;
 }
 
-/* GROUP */
-.fabric-group {
-  margin-bottom: 26px;
+.tm {
+  font-size: 12px;
+  vertical-align: super;
 }
 
-.fabric-group h4 {
-  font-size: 14px;
-  margin-bottom: 12px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-/* TAGS */
-.fabric-tags {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.fabric-tags span {
-  padding: 7px 14px;
+.tagline {
+  margin-top: 6px;
   font-size: 13px;
+  letter-spacing: 1px;
+  color: #555;
+}
+
+/* SECTIONS */
+.section {
+  padding: 32px 18px;
+  max-width: 520px;
+  margin: auto;
+}
+
+.section h2 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+/* INTRO */
+.intro p {
+  text-align: center;
+  font-size: 15px;
+  color: #444;
+}
+
+/* LIST */
+.truth-list {
+  padding-left: 18px;
+}
+
+.truth-list li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* MEASUREMENT BOX */
+.measure-box {
   border: 1px solid #ddd;
-  border-radius: 20px;
-  background: #fafafa;
+  padding: 16px;
+  margin-top: 12px;
+}
+
+.measure-box div {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.measure-box div:last-child {
+  border-bottom: none;
+}
+
+.measure-box span {
+  color: #666;
+  font-size: 13px;
 }
 
 /* NOTE */
-.fabric-note {
-  margin-top: 30px;
+.note {
+  margin-top: 14px;
   font-size: 13px;
+  color: #555;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 24px 16px;
+  font-size: 12px;
   color: #666;
-  max-width: 360px;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 1.5;
+  border-top: 1px solid #eee;
 }
