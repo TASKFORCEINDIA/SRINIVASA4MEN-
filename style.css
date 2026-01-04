@@ -1,3 +1,4 @@
+/* RESET */
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -22,11 +23,6 @@ body {
   font-size: 11px;
   vertical-align: super;
 }
-.section h2 {
-  margin-top: 0;
-  margin-bottom: 12px;
-}
-
 
 .tagline {
   font-size: 13px;
@@ -46,11 +42,11 @@ body {
   margin-top: -8px;
 }
 
-/* SECTION TITLES + CURVED UNDERLINE */
+/* SECTION TITLES */
 .section-title {
   font-size: 18px;
   letter-spacing: 1px;
-  margin-bottom: 18px;
+  margin: 0 0 18px;
   position: relative;
 }
 
@@ -61,13 +57,10 @@ body {
   height: 3px;
   background: #111;
   margin-top: 6px;
-
-  /* THIS CREATES THE CURVE */
-  border-radius: 2px 14px 2px 14px;
+  border-radius: 14px;
 }
 
-
-/* BLOCKS */
+/* BLOCKS (Design / Fabric) */
 .block {
   margin-bottom: 22px;
 }
@@ -94,20 +87,8 @@ body {
   background: #fafafa;
 }
 
-/* SERVICES */
-.service {
-  border-bottom: 1px solid #eee;
-  padding: 10px 0;
-}
-
-.service p {
-  margin: 6px 0 0;
-  font-size: 13px;
-  color: #555;
-}
-
-/* KNOWLEDGE */
-.knowledge {
+/* TOGGLE (Services & Knowledge Centre) */
+.simple-toggle {
   border-bottom: 1px solid #eee;
 }
 
@@ -121,17 +102,17 @@ body {
 
 .content {
   display: none;
-  padding: 0 4px 14px;
+  padding: 10px 4px 14px;
+}
+
+.simple-toggle.open .content {
+  display: block;
 }
 
 .content p {
   margin: 6px 0;
   font-size: 13px;
   color: #444;
-}
-
-.knowledge.open .content {
-  display: block;
 }
 
 /* FOOTER */
@@ -142,54 +123,3 @@ body {
   color: #666;
   border-top: 1px solid #eee;
 }
-.section + .section {
-  margin-top: -6px;
-}
-
-.section + .section {
-  margin-top: -10px;
-}
-.section + .section {
-  margin-top: -8px;
-}
-
-.knowledge-main {
-  border-bottom: 1px solid #eee;
-}
-
-.knowledge-main .content {
-  display: none;
-  padding: 10px 4px 14px;
-}
-
-.knowledge-main.open .content {
-  display: block;
-}
-
-.knowledge strong {
-  display: block;
-  margin-top: 12px;
-  font-size: 13px;
-}
-
-.knowledge p {
-  margin: 6px 0;
-  font-size: 13px;
-  color: #444;
-} 
-.simple-toggle {
-  border-bottom: 1px solid #eee;
-}
-
-.simple-toggle .content {
-  display: none;
-  padding: 10px 4px 14px;
-}
-
-.simple-toggle.open .content {
-  display: block;
-}
-
-
-
-
