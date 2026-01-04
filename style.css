@@ -133,3 +133,7 @@ body {
   color: #666;
   border-top: 1px solid #eee;
 }
+.section + .section {
+  margin-top: -6px;
+}
+
