@@ -37,9 +37,13 @@ body {
 
 /* SECTIONS */
 .section {
-  padding: 14px 18px;
+  padding: 16px 18px;
   max-width: 520px;
   margin: auto;
+}
+
+.section + .section {
+  margin-top: -8px;
 }
 
 /* SECTION TITLES + CURVED UNDERLINE */
@@ -145,4 +149,8 @@ body {
 .section + .section {
   margin-top: -10px;
 }
+.section + .section {
+  margin-top: -8px;
+}
+
 
