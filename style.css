@@ -137,3 +137,9 @@ body {
 .simple-toggle {
   margin-top: -6px;
 }
+.section-title span {
+  font-size: 16px;
+  font-weight: normal;
+  color: #999;
+}
+
