@@ -129,3 +129,7 @@ body {
   align-items: center;
   cursor: pointer;
 }
+
+.simple-toggle {
+  margin-top: -6px;
+}
