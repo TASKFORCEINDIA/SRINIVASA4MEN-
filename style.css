@@ -176,6 +176,20 @@ body {
   margin: 6px 0;
   font-size: 13px;
   color: #444;
+} 
+.simple-toggle {
+  border-bottom: 1px solid #eee;
 }
+
+.simple-toggle .content {
+  display: none;
+  padding: 10px 4px 14px;
+}
+
+.simple-toggle.open .content {
+  display: block;
+}
+
+
 
 
