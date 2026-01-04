@@ -153,4 +153,29 @@ body {
   margin-top: -8px;
 }
 
+.knowledge-main {
+  border-bottom: 1px solid #eee;
+}
+
+.knowledge-main .content {
+  display: none;
+  padding: 10px 4px 14px;
+}
+
+.knowledge-main.open .content {
+  display: block;
+}
+
+.knowledge strong {
+  display: block;
+  margin-top: 12px;
+  font-size: 13px;
+}
+
+.knowledge p {
+  margin: 6px 0;
+  font-size: 13px;
+  color: #444;
+}
+
 
