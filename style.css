@@ -59,6 +59,10 @@ body {
   margin-top: 6px;
   border-radius: 14px;
 }
+.simple-toggle .section-title::after {
+  display: none;
+}
+
 
 /* BLOCKS (Design / Fabric) */
 .block {
