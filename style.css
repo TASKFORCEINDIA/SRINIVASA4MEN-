@@ -22,6 +22,11 @@ body {
   font-size: 11px;
   vertical-align: super;
 }
+.section h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
 
 .tagline {
   font-size: 13px;
@@ -32,7 +37,7 @@ body {
 
 /* SECTIONS */
 .section {
-  padding: 20px 18px;
+  padding: 14px 18px;
   max-width: 520px;
   margin: auto;
 }
@@ -135,5 +140,9 @@ body {
 }
 .section + .section {
   margin-top: -6px;
+}
+
+.section + .section {
+  margin-top: -10px;
 }
 
